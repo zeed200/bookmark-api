@@ -1,1 +1,1 @@
-web: gunicorn bookmark-api.wsgi
+web: gunicorn backend.wsgi
