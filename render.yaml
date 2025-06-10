@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: backend
+    name: bookmark-api
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn backend.wsgi:application
+    startCommand: gunicorn bookmark-api.wsgi:application
     envVars:
       - key: DJANGO_SETTINGS_MODULE
-        value: backend.settings
+        value: bookmark-api.settings
