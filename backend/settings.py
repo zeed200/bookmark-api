@@ -54,7 +54,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://bookmark-smoky-kappa.vercel.app/", 
+    "https://bookmark-smoky-kappa.vercel.app", 
 ]
 
 ROOT_URLCONF = 'backend.urls'
